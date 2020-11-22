@@ -16,17 +16,9 @@ Local web server will use port 4100 instead of standard React's port 3000 to pre
  
 Alternatively, you can add `.env` file in the root folder of project to set environment variables (use PORT to change webserver's port). This file will be ignored by git, so it is suitable for API keys and other sensitive stuff. Refer to [dotenv](https://github.com/motdotla/dotenv) and [React](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-development-environment-variables-in-env) documentation for more details. Also, please remove setting variable via script section of `package.json` - `dotenv` never override variables if they are already set.  
 
-### Making requests to the backend API
-
-
-The source code for the backend server (available for Node, Rails and Django) can be found in the [OM backend repo](https://github.com/davidbanu/OM-backend).
-
-If you want to change the API URL to a local server, simply edit `src/agent.js` and change `API_ROOT` to the local server's URL (i.e. `http://localhost:3000/api`)
-
-
 ## Functionality overview
 
-The example application is a funding donation platform (i.e. a Medium.com clone) called "OM". It uses a custom API for all requests, including authentication.
+The application is a funding donation platform called "Funding OM Romania". It uses a custom API for all requests, including authentication.
 
 **General functionality:**
 
