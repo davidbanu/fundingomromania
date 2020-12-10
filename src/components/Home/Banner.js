@@ -9,7 +9,7 @@ const Banner = ({ appName, token }) => {
       <section className="showcase">
         <div className="col-md-12 showcase-bg">
           <p className="showcase-text">
-            Be part of an OM campaign through your gift of good will
+          România, țara cu cei mai mulți credincioși evanghelici din Europa (după ultimele statistici), n-a aflat încă ce poate să facă Dumnezeu în/prin Bisericile sale locale! 
           </p>
         </div>
         <div className="showcase-img">       
