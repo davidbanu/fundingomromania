@@ -12,8 +12,6 @@ const Banner = ({ appName, token }) => {
           România, țara cu cei mai mulți credincioși evanghelici din Europa (după ultimele statistici), n-a aflat încă ce poate să facă Dumnezeu în/prin Bisericile sale locale! 
           </p>
         </div>
-        <div className="showcase-img">       
-        </div>
       </section>
     </div>  
   );

@@ -12,7 +12,7 @@ const GlobalFeedTab = props => {
   };
 
   return (
-    <h3 className="homeExploreTitle">Explore campaigns</h3>
+    <h3 className="homeExploreTitle">Exploreaza campaniile</h3>
   );
 
 };
