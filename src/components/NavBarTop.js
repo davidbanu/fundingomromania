@@ -13,15 +13,6 @@ function NavBarTop() {
             <div className="logo">
                 <Link to="/">UiRoute</Link>
             </div>
-            <div className="nav-wrapper">
-                <ul>
-                    <li><Link to="/">Themes</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/termspolicies">Resources</Link></li>
-                    <li><Link to="/signin">Sign In</Link></li>
-                    <li><Link to="/signup" className="signup-btn-menu">Sign Up</Link></li>
-                </ul>
-            </div>
         </nav>
     )
 }
