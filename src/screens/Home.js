@@ -21,7 +21,7 @@ function Home() {
         <div id="products" className="products-section">
           <div className="row">
             <div className="col-md-12">
-              <h2 className="section-title" id="all_themes">All Themes</h2>
+              <h2 className="section-title" id="all_themes">Toate echipele</h2>
             </div>
           </div>
           <div className="row products-row">
@@ -34,7 +34,7 @@ function Home() {
                         <div className="col-md-10 col-sm-10 col-10">
                           <h4 className="post-title mb-0"> <Link to={data.link}> {data.title} </Link></h4>
                         </div>
-                        <div className="col-md-2 col-sm-2 col-2 price-col-label"> <a className="btn btn-primary product-price" href="#">{data.pricing.basicPrice}</a>
+                        <div className="col-md-2 col-sm-2 col-2 price-col-label"> <a className="btn btn-primary product-price" href="#">Doneaza</a>
                         </div>
                       </div>
                     </header>
@@ -44,7 +44,6 @@ function Home() {
                           <div className="short-description">
                             <p className="mt-2">{data.description}</p>
                           </div>
-                          <p className="mb-0 extension-text"> Compatible with <a href="#">Bootstrap 4</a> <a href="#">HTML</a></p>
                         </div>
                       </div>
                     </div>

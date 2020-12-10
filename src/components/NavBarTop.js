@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import logo  from '../om-logo-2x.png';
 
 function NavBarTop() {
     return (
@@ -11,7 +11,7 @@ function NavBarTop() {
                 <i />
             </label>
             <div className="logo">
-                <Link to="/">UiRoute</Link>
+            <img src={logo} alt="Logo" />
             </div>
         </nav>
     )

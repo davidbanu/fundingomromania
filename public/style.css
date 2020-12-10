@@ -44,14 +44,8 @@
 
 }
 
-.logo a {
-  color: var(--primary-color);
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: PulpBold;
-  font-size: 20px;
-  letter-spacing: 0px;
-  text-decoration: none;
+.logo img {
+  width: 60px;
 
 }
 
