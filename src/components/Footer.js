@@ -7,125 +7,53 @@ function Footer() {
       <div className="container">
         <div className="row mt-5">
           <div className="col-md-3 col-sm-6 col-12 brand-footer mb-5">
-            <h3 className="text-center title-footer">UiRoute</h3>
+            <h3 className="text-center title-footer">Funding OM Romania</h3>
             <p className="text-center">
-              Web Elements and UI Templates designed and built for awesome
-              developers
+            România, țara cu cei mai mulți credincioși evanghelici din Europa (după ultimele statistici), n-a aflat încă ce poate să facă Dumnezeu în/prin Bisericile Sale locale
             </p>
           </div>
           <div className="col-md-3 col-sm-6 col-12 company-footer">
-            <h3 className="text-center title-footer">Company</h3>
+            <h3 className="text-center title-footer">Campanii</h3>
             <ul>
               <li>
-                <Link to="/about">About Us</Link>
+                <Link to="/">Misiunea din Dobrogea</Link>
               </li>
               <li>
-                <Link to="/products/free">Freebies</Link>
+                <Link to="/">Misiunea din Sud-Estul României</Link>
               </li>
               <li>
-                <Link to="/products/premium">Premium</Link>
-              </li>
-              <li>
-                <Link to="/">Blog</Link>
-              </li>
-              <li>
-                <Link to="/contact">Contact Us</Link>
+                <Link to="/">Misiunea din Oltenia</Link>
               </li>
             </ul>
           </div>
           <div className="col-md-3 col-sm-6 col-12 legal-footer">
-            <h3 className="text-center title-footer">Legal</h3>
+            <h3 className="text-center title-footer">Campanii</h3>
             <ul>
               <li>
-                <Link to="/termsconditions">Terms and Conditions</Link>
+                <Link to="/">Instruirea misionarilor străini și români</Link>
               </li>
               <li>
-                <Link to="/privacypolicy">Privacy Policy</Link>
+                <Link to="/">Misiunea de susținere a misionarilor români</Link>
               </li>
               <li>
-                <Link to="/cookiepolicy">Cookie Policy</Link>
-              </li>
-              <li>
-                <Link to="/licensing">Licensing</Link>
-              </li>
-              <li>
-                <Link to="/refundpolicy">Refund Policy</Link>
+                <Link to="/">Misiunea din Ghimbav</Link>
               </li>
             </ul>
           </div>
           <div className="col-md-3 col-sm-6 col-12 resources-footer">
-            <h3 className="text-center title-footer">Resources</h3>
+            <h3 className="text-center title-footer">Resurse</h3>
             <ul>
               <li>
-                <Link to="/product/bootstrap/startup-prime-kit">
-                  Startup Prime Kit
+                <Link to="https://www.om.org/en/country-profile/romania">
+                  OM Romania
                 </Link>
-              </li>
-              <li>
-                <Link to="/product/bootstrap/startup-prime-pro-kit">
-                  Startup Prime Pro Kit
-                </Link>
-              </li>
-              <li>
-                <Link to="/product/bootstrap/lansera">Lansera Theme</Link>
-              </li>
-              <li>
-                <Link to="/product/bootstrap/saas-master">SaaS Master</Link>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <div className="social-icons text-center">
-        <ul>
-          <li>
-            <a
-              href="https://github.com/UiRoute/"
-              className="github-icon"
-              aria-label="Github"
-            >
-              <i className="fa fa-github" aria-hidden />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://instagram.com/ui.route"
-              className="instagram-icon"
-              aria-label="Instagram"
-            >
-              <i className="fa fa-instagram" aria-hidden />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://dribbble.com"
-              className="dribbble-icon"
-              aria-label="Dribbble"
-            >
-              <i className="fa fa-dribbble" aria-hidden />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://facebook.com"
-              className="facebook-icon"
-              aria-label="Facebook"
-            >
-              <i className="fa fa-facebook" aria-hidden />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://twitter.com/ui_route"
-              className="twitter-icon"
-              aria-label="Twitter"
-            >
-              <i className="fa fa-twitter" aria-hidden />
-            </a>
-          </li>
-        </ul>
-      </div>
-      <p className="text-center copyright-footer">© 2020 UiRoute</p>
+      
+      <p className="text-center copyright-footer">© 2020 Funding OM Romania</p>
     </footer>
   );
 }
