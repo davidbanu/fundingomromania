@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 import NavBarTop from '../components/NavBarTop';
 import HomeTabBar from '../components/HomeTabBar';
-import FeaturedIn from '../components/FeaturedIn';
-import Newsletter from '../components/Newsletter';
 
 import { productData } from "../productData";
 
@@ -14,11 +12,10 @@ function Home() {
     <div className="flex-wrapper">
       <div className="container home">
         <NavBarTop />
-        <h1 className="title text-center"> Best UI themes for developers </h1>
-        <p className="sub-title text-center">Web Elements and UI Templates designed and built
-              for awesome developers</p>
+        <h1 className="title text-center"> Oportunități de misiune în România </h1>
+        <p className="sub-title text-center">România, țara cu cei mai mulți credincioși evanghelici din Europa (după ultimele statistici), n-a aflat încă ce poate să facă Dumnezeu în/prin Bisericile Sale locale!</p>
         <a href="#products" className="products-button-link">
-          <button className="primary with-shadow"> View Our Products</button>
+          <button className="primary with-shadow">Citește mai mult </button>
         </a>
         <HomeTabBar />
         <div id="products" className="products-section">
@@ -59,8 +56,6 @@ function Home() {
           </div>
 
         </div>
-        <FeaturedIn />
-        <Newsletter />
       </div>
       <Footer />
     </div>
