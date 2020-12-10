@@ -27,7 +27,7 @@ function Home() {
           <div className="row products-row">
             {productData.map((data) => {
               return (
-                <div className="col-lg-6 col-sm-12">
+                <div className="col-lg-12">
                   <section className="product-item" style={data.style}>
                     <header>
                       <div className="row title-row">
