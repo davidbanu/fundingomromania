@@ -12,12 +12,11 @@ function Home() {
     <div className="flex-wrapper">
       <div className="container home">
         <NavBarTop />
-        <h1 className="title text-center">Oportunitati de spijin a misiunii OM ROMANIA</h1>
+        <h1 className="title text-center">Oportunitati de sprijin a misiunii OM ROMANIA</h1>
         <p className="sub-title text-center">România, țara cu cei mai mulți credincioși evanghelici din Europa (după ultimele statistici), n-a aflat încă ce poate să facă Dumnezeu în/prin Bisericile Sale locale!</p>
         <a href="#products" className="products-button-link">
           <button className="primary with-shadow">Citește mai mult </button>
         </a>
-        <HomeTabBar />
         <div id="products" className="products-section">
           <div className="row">
             <div className="col-md-12">
