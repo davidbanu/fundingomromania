@@ -15,12 +15,12 @@
 
 @font-face {
   font-family: Pulp;
-  src: url(fonts/PulpDisplay-Medium.woff);
+  src: url(fonts/NotoSans-Regular.ttf);
 }
 
 @font-face {
   font-family: PulpBold;
-  src: url(fonts/PulpDisplay-Bold.woff);
+  src: url(fonts/NotoSans-Bold.ttf);
 }
 
 @font-face {
