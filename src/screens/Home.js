@@ -33,7 +33,7 @@ function Home() {
                         <div className="col-md-10 col-sm-10 col-10">
                           <h4 className="post-title mb-0"> <Link to={data.link}> {data.title} </Link></h4>
                         </div>
-                        <div className="col-md-2 col-sm-2 col-2 price-col-label"> <a className="btn btn-primary product-price" href="#">Doneaza</a>
+                        <div className="col-md-2 col-sm-2 col-2 price-col-label"> <a className="btn btn-primary product-price" href="#">Donează</a>
                         </div>
                       </div>
                     </header>
