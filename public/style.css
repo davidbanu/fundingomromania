@@ -810,7 +810,8 @@ LOGIN PAGE
   font-family: PulpBold;
 }
 
-button.primary {
+button.primary,
+.donate-btn {
   vertical-align: top;
   background: #fff;
   color: #D22630;
@@ -828,7 +829,8 @@ button.primary {
   border-right: 1px solid #D22630;
 }
 
-button.primary:hover {
+button.primary:hover,
+.donate-btn:hover {
   background-color: var(--main-bg-color);
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
