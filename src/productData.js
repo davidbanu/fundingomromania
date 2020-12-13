@@ -16,7 +16,7 @@ export const productData = [
         style: {
             backgroundColor: "rgb(255, 255, 255)"
         },
-        description: "Recent am format o nouă echipa de misionari OM în București, care își propune să lucreze printre refugiații și printre evreii din România. Dorim să împărtășim dragostea lui Dumnezeu cu aceste grupuri etnice care sunt neglijate de cei mai mulți credincioși. De asemenea, intenționam să continuăm și lucrarea cu rromii din această zonă unde există multe localități fără nici o Biserică Evanghelică. Puteți veni alături de noi pentru a lucra la extinderea Împărăției lui Dumnezeu printre aceste categorii de oameni mai puțin expuși Evangheliei. De asemenea puteți face donații care să acopere nevoile materiale ale acestor oameni. De exemplu, de două ori pe an facem pachete de alimente pentru refugiați, ceea ce necesită o sumă totală de 22.000 Lei/an."
+        description: "Recent am format o nouă echipă de misionari OM în București, care își propune să lucreze printre refugiații și printre evreii din România. Dorim să împărtășim dragostea lui Dumnezeu cu aceste grupuri etnice care sunt neglijate de cei mai mulți credincioși. De asemenea, intenționam să continuăm și lucrarea cu rromii din această zonă unde există multe localități fără nici o Biserică Evanghelică. Puteți veni alături de noi pentru a lucra la extinderea Împărăției lui Dumnezeu printre aceste categorii de oameni mai puțin expuși Evangheliei. De asemenea puteți face donații care să acopere nevoile materiale ale acestor oameni. De exemplu, de două ori pe an facem pachete de alimente pentru refugiați, ceea ce necesită o sumă totală de 22.000 Lei/an."
     },
 
     {
@@ -40,7 +40,7 @@ export const productData = [
     },
 
     {
-        title: "Misiunea de susținere financiară și în rugăciune a misionarilor români*",
+        title: "Misiunea de susținere financiară și în rugăciune a misionarilor români",
         category: "Templates",
         link: "/",
         style: {
