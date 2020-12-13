@@ -130,13 +130,13 @@
 }
 
 .product-item .post-title a {
-  font-family: Pulp;
-  color: #fff;
+  font-family: PulpBold;
+  color: var(--primary-color);
   font-size: 1.4rem;
 }
 
 .product-item .short-description {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--dark);
   font-family: Pulp;
   font-size: 18px;
   line-height: 24px;

@@ -5,11 +5,6 @@ function NavBarTop() {
     return (
         <nav>
             <input type="checkbox" id="nav" className="d-none" />
-            <label htmlFor="nav" className="nav-btn">
-                <i />
-                <i />
-                <i />
-            </label>
             <div className="logo">
             <img src={logo} alt="Logo" />
             </div>
