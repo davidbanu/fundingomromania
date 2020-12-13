@@ -870,6 +870,15 @@ button.primary:hover,
   font-family: PulpBold;
 }
 
+h2.title-modal {
+margin-bottom: 60px;
+}
+
+.modalDonationText .letterModals {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .nav-templates {
   margin-top: 80px;
   margin-bottom: 80px;
