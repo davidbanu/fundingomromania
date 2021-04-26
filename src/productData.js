@@ -2,11 +2,11 @@ export const productData = [
     {
         title: "Misiunea printre musulmanii turci și tătari din Dobrogea (România și Bulgaria)",
         category: "Ui Kits",
-        link: "",
+        link: "/",
         style: {
             backgroundColor: "rgb(255, 255, 255)"
         },
-        description: "De la începutul acestui an, am început să slujim printre minoritățile de turci, tătari si romi din Dobrogea. În Cobadin avem deja o echipă de 8 misionari români și străini care lucrează neobosit printre aceste grupuri etnice. În vara acestui an am avut deja un botez Nou Testamentar, cu două persoane, printre musulmanii din această zonă. De asemenea, Dumnezeu ne-a deschis o ușă de misiune și spre musulmanii din Bulgaria (Dobrogea Bulgariei din partea de Nord-Est a țării până în Sud spre Turcia). Vara aceasta, în zona Burgas, un număr de 18 musulmani L-au mărturisit pe Domnul prin botez. Puteți ajuta lucrarea aceasta de misiune alăturându-vă bisericilor locale din zonă, în efortul lor de predicare a Evangheliei și formarea de ucenici ai lui Hristos printre oamenii (mai ales tinerii) cei mai puțin evanghelizați. De asemenea puteți face o donație care să acopere nevoile financiare ale echipei (aprox. 2500 Lei/ lună folosim doar pentru proiecte sociale: hrană și îmbrăcăminte pentru cei aflați în dificultăți materiale)."
+        description: "De la începutul anului trecut, am început să slujim printre minoritățile de turci, tătari si romi din Dobrogea. În Cobadin avem deja o echipă de 9 misionari români și străini care lucrează neobosit printre aceste grupuri etnice. În vara anului trecut am avut deja un botez Nou Testamentar, cu două persoane, printre musulmanii din această zonă. De asemenea, Dumnezeu ne-a deschis o ușă de misiune și spre musulmanii din Bulgaria (Dobrogea Bulgariei din partea de Nord-Est a țării până în Sud spre Turcia). Vara trecută, în zona Burgas, un număr de 18 musulmani L-au mărturisit pe Domnul prin botez. Puteți ajuta lucrarea aceasta de misiune alăturându-vă bisericilor locale din zonă, în efortul lor de predicare a Evangheliei și formarea de ucenici ai lui Hristos printre oamenii (mai ales tinerii) cei mai puțin evanghelizați. De asemenea puteți face o donație care să acopere nevoile financiare ale echipei (aprox. 2500 Lei/ lună folosim doar pentru proiecte sociale: hrană și îmbrăcăminte pentru cei aflați în dificultăți materiale)."
     },
 
     {
@@ -26,7 +26,7 @@ export const productData = [
         style: {
             backgroundColor: "rgb(255, 255, 255)"
         },
-        description: "Așa cum este cunoscut, județele Olt, Dolj, Gorj si Vâlcea sunt județele cu cel mai mic procent de credincioși evanghelici din întreaga țară. Problemele majore de vrăjitorie, superstiții si alcoolism, determină ca Oltenia să fie dintre unul cele mai dificile câmpuri de misiune din întreaga țară. OM România dorește să sprijine efortul Bisericilor locale din România care aud chemarea lui Dumnezeu de a vesti Evanghelia celor mai puțin evanghelizați din Oltenia. Puteți sprijini financiar lucrarea cu tinerii din Oltenia, prin care sperăm să avem un impact crescând în această zonă. Suma de 5.530 Lei/an ar acoperi mare parte din nevoile legate de această misiune.",
+        description: "Așa cum este cunoscut, județele Olt, Dolj, Gorj si Vâlcea sunt județele cu cel mai mic procent de credincioși evanghelici din întreaga țară. Problemele majore de vrăjitorie, superstiții si alcoolism, determină ca Oltenia să fie unul dintre cele mai dificile câmpuri de misiune din întreaga țară. OM România dorește să sprijine efortul Bisericilor locale din România care aud chemarea lui Dumnezeu de a vesti Evanghelia celor mai puțin evanghelizați din Oltenia. Puteți sprijini financiar lucrarea cu tinerii din Oltenia, prin care sperăm să avem un impact crescând în această zonă. Suma de 5.530 Lei/an ar acoperi mare parte din nevoile legate de această misiune.",
     },
 
     {
@@ -46,7 +46,7 @@ export const productData = [
         style: {
             backgroundColor: "rgb(255, 255, 255)"
         },
-        description: "Este impresionant faptul că, în această vreme, tot mai mulți români simt chemarea lui Dumnezeu pentru implicare în misiune de lungă durată printre categoriile de oameni mai puțin evanghelizați din România și din străinătate. Provocarea susținerii lor în această misiune este însă o mare provocare pentru noi. Puteți aduna comori în Împărăția lui Dumnezeu dacă vă angajați în această misiune specială de sprijin în rugăciune și de sprijin financiar al misionarilor români. De aceea, orice donație (făcută o singură data sau lunar) pentru oricare dintre misionarii OM, pe care-l puteți astfel “adopta”, este binevenită. Încheiem anul acesta cu un deficit de 21.130 Lei pentru susținerea financiară a misionarilor noștri.",
+        description: "Este impresionant faptul că, în această vreme, tot mai mulți români simt chemarea lui Dumnezeu pentru implicare în misiune de lungă durată printre categoriile de oameni mai puțin evanghelizați din România și din străinătate. Provocarea susținerii lor în această misiune este însă o mare provocare pentru noi. Puteți aduna comori în Împărăția lui Dumnezeu dacă vă angajați în această misiune specială de sprijin în rugăciune și de sprijin financiar al misionarilor români. De aceea, orice donație (făcută o singură data sau lunar) pentru oricare dintre misionarii OM, pe care-l puteți astfel “adopta”, este binevenită. Ne propunem anul acesta să strângem 21.130 Lei pentru susținerea financiară a misionarilor noștri.",
     },
 
     {
@@ -56,7 +56,7 @@ export const productData = [
         style: {
             backgroundColor: "rgb(255, 255, 255)"
         },
-        description: "Pentru activitățile de instruire misionară și cele legate de misiune pe termen scurt, avem nevoie de un întreg aparat administrativ și de resurse financiare care să acopere cheltuielile de întreținere. Echipa de misionari din Ghimbav susține logistic lucrările din țară, asigură hrana necesară pentru misionarii aflați la bază, administrează sediul și îndeplinește toate aspectele legale pentru contabilitate. Încheiem anul cu un deficit de 5.500 Lei.",
+        description: "Pentru activitățile de instruire misionară și cele legate de misiune pe termen scurt, avem nevoie de un întreg aparat administrativ și de resurse financiare care să acopere cheltuielile de întreținere. Echipa de misionari din Ghimbav susține logistic lucrările din țară, asigură hrana necesară pentru misionarii aflați la bază, administrează sediul și îndeplinește toate aspectele legale pentru contabilitate. Ne propunem anul acesta să strângem 5.500 Lei.",
     },
 ];
 

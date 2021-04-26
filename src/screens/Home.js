@@ -15,7 +15,7 @@ const customStyles = {
     left                  : '50%',
     right                 : 'auto',
     bottom                : 'auto',
-    marginRight           : '-50%',
+    marginRight           : '10%',
     transform             : 'translate(-50%, -50%)',
     position              : 'absolute',
     fontFamily           : 'Pulp'
@@ -72,10 +72,10 @@ class Home extends React.Component {
                     contentLabel="About Modal"
                     >
                       <div className="row">
-                        <div className="col-md-10 col-12">
+                        <div className="col-md-10">
                           <h2 ref={subtitle => this.subtitle = subtitle} className="text-center title-modal">Mesaj</h2>
                         </div>
-                        <div className="col-md-2 col-12">
+                        <div className="col-md-2">
                           <button type="button" class="close" aria-label="Close" onClick={this.closeModal}>
                             <span aria-hidden="true">&times;</span>
                           </button>
