@@ -140,7 +140,7 @@ class Home extends React.Component {
                         <div className="col-md-10 col-sm-10 col-12">
                           <h4 className="post-title mb-0"> <Link to={data.link}> {data.title} </Link></h4>
                         </div>
-                        <div className="col-md-2 col-sm-2 col-12 price-col-label text-center"> <a className="btn donate-btn" href="#" onClick={this.openDonationModal}>Donează</a>
+                        <div className="col-md-2 col-sm-2 col-12 price-col-label text-center"> <a className="btn donate-btn" title-campaign={data.title} onClick={this.openDonationModal}>Donează</a>
                         <Modal
                           isOpen={this.state.donationModalIsOpen}
                           onAfterOpen={this.afterOpenDonationModal}
@@ -163,6 +163,8 @@ class Home extends React.Component {
                               Nu uitați să menționați care este proiectul pe care doriți să îl susțineți! MULȚUMESC!
                               <br/>
                               <b>Nume beneficiar:</b> Fundaţia OM Romania
+                              <br/>
+                              <b>Detalii plată:</b> {data.title}
                               <br/>
                               <b>IBAN:</b> TEST
                               </p>
