@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import NavBarTop from '../components/NavBarTop';
 import HomeTabBar from '../components/HomeTabBar';
 
+import '../Style.css';
 import { productData } from "../productData";
 
 const customStyles = {
@@ -34,12 +35,16 @@ class Home extends React.Component {
 
     this.state = {
       modalIsOpen: false,
+      donationModalIsOpen: false,
       body: ''
     };
     
     this.openModal = this.openModal.bind(this);
     this.afterOpenModal = this.afterOpenModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
+    this.openDonationModal = this.openDonationModal.bind(this);
+    this.afterOpenDonationModal = this.afterOpenDonationModal.bind(this);
+    this.closeDonationModal = this.closeDonationModal.bind(this);
   }
 
 
@@ -56,6 +61,19 @@ class Home extends React.Component {
     this.setState({modalIsOpen: false});
   }
 
+  openDonationModal() {
+    this.setState({donationModalIsOpen: true});
+  }
+
+  afterOpenDonationModal() {
+    // references are now sync'd and can be accessed.
+    this.subtitle.style.color = '#f00';
+  }
+
+  closeDonationModal() {
+    this.setState({donationModalIsOpen: false});
+  }
+
   render() {
     return (
       <div className="flex-wrapper">
@@ -63,7 +81,7 @@ class Home extends React.Component {
         <NavBarTop />
         <h1 className="title text-center">Oportunități de sprijin a misiunii OM ROMANIA</h1>
         <p className="sub-title text-center">România, țara cu cei mai mulți credincioși evanghelici din Europa (după ultimele statistici), n-a aflat încă ce poate să facă Dumnezeu în/prin Bisericile Sale locale!</p>
-        <button className="primary with-shadow" onClick={this.openModal}>Citește mai mult </button>
+        <button className="primary with-shadow" onClick={this.openModal}>Citește mai mult</button>
         <Modal
                     isOpen={this.state.modalIsOpen}
                     onAfterOpen={this.afterOpenModal}
@@ -81,7 +99,7 @@ class Home extends React.Component {
                           </button>
                         </div>
                       </div>
-                        <p className="modalDonationText">Echipa de misiune OM România dorește să sprijine efortul pe care-l depun toți credincioșii români, ce poartă în inima lor această dorință de îndeplinire a Planului Măreț de Misiune al lui Dumnezeu, potrivit Căruia, Evanghelia Împărăției trebuie să ajungă la orice comunitate umană din țara noastră. 
+                        <p className="modalDonationText"> Echipa de misiune OM România dorește să sprijine efortul pe care-l depun toți credincioșii români, ce poartă în inima lor această dorință de îndeplinire a Planului Măreț de Misiune al lui Dumnezeu, potrivit Căruia, Evanghelia Împărăției trebuie să ajungă la orice comunitate umană din țara noastră.  
                         <span className="letterModals">
                         În mod deosebit, dorim să ajutăm bisericile din Sud și Sud-Estul României, ca, aici, Evanghelia să fie vestită celor ce sunt mai puțin expuși Adevărului. Dorința noastră este să identificăm Biserici vii de ucenici ai lui Hristos din România care simt chemarea de a forma alte grupuri de ucenici și Biserici locale noi, în Sud și Sud-Estul țării noastre. 
                         Este adevărat că, din cauza situației pandemice mondiale, Bisericile poate trec prin momente mai dificile, din punct de vedere financiar însă, noi credem că Dumnezeu are încă resurse nebănuite pe care El le-a transferat spre Bisericile locale și credincioșii care știu să-și manifeste generozitatea chiar și în această perioadă critică.
@@ -95,12 +113,17 @@ class Home extends React.Component {
                         </span>
                         
                         Mulțumim și ne rugăm ca Dumnezeu sa va binecuvânteze.
-                        În numele echipei de misiune OM,
                         <br/>
-                        Director
                         <br/>
-                        Cornel Boingeanu</p> 
-                  </Modal>
+                        <span className="semnatura">
+                          În numele echipei de misiune OM,
+                          <br/>
+                          Director
+                          <br/>
+                          Cornel Boingeanu 
+                        </span>
+                      </p>
+        </Modal>
         <div id="products" className="products-section">
           <div className="row">
             <div className="col-md-12">
@@ -117,7 +140,33 @@ class Home extends React.Component {
                         <div className="col-md-10 col-sm-10 col-12">
                           <h4 className="post-title mb-0"> <Link to={data.link}> {data.title} </Link></h4>
                         </div>
-                        <div className="col-md-2 col-sm-2 col-12 price-col-label text-center"> <a className="btn donate-btn" href="#">Donează</a>
+                        <div className="col-md-2 col-sm-2 col-12 price-col-label text-center"> <a className="btn donate-btn" href="#" onClick={this.openDonationModal}>Donează</a>
+                        <Modal
+                          isOpen={this.state.donationModalIsOpen}
+                          onAfterOpen={this.afterOpenDonationModal}
+                          onRequestClose={this.closeDonationModal}
+                          style={customStyles}
+                          contentLabel="Donation"
+                          >
+                            <div className="row">
+                              <div className="col-md-10">
+                                <h2 ref={subtitle => this.subtitle = subtitle} className="text-center title-modal">Vreau să donez</h2>
+                              </div>
+                              <div className="col-md-2">
+                                <button type="button" class="close" aria-label="Close" onClick={this.closeDonationModal}>
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                            </div>
+                              <p className="modalDonationText"> 
+                              Ajutorul dvs. financiar poate face o mare diferență în viața multora! Puteți alege să dați 10-20-50-100-1000 RON / EURO / DOLARI / Pounds sau cât doriți! Nimic nu este nesemnificativ!
+                              Nu uitați să menționați care este proiectul pe care doriți să îl susțineți! MULȚUMESC!
+                              <br/>
+                              <b>Nume beneficiar:</b> Fundaţia OM Romania
+                              <br/>
+                              <b>IBAN:</b> TEST
+                              </p>
+                        </Modal>
                         </div>
                       </div>
                     </header>
