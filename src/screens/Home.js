@@ -162,11 +162,21 @@ class Home extends React.Component {
                               Ajutorul dvs. financiar poate face o mare diferență în viața multora! Puteți alege să dați 10-20-50-100-1000 RON / EURO / DOLARI / Pounds sau cât doriți! Nimic nu este nesemnificativ!
                               Nu uitați să menționați care este proiectul pe care doriți să îl susțineți! MULȚUMESC!
                               <br/>
+                              <br/>
                               <b>Nume beneficiar:</b> Fundaţia OM Romania
                               <br/>
-                              <b>Detalii plată:</b> {data.title}
+                              <b>IBAN Beneficiar:</b> RO36RZBR0000060001980582
                               <br/>
-                              <b>IBAN:</b> RO36RZBR0000060001980582
+                              <b>Detalii plată:</b> Donaţie OM Romania
+                              <br/>
+                              <b>Cod SWIFT:</b> RZBRROBU
+                              <br/>
+                              <br/>
+                              Pentru detalii suplimentare vă rugăm să ne contactaţi:
+                              <br/>
+                              <b>Telefon:</b> +40 268 253613
+                              <br/>
+                              <b>Email:</b> info.ro@om.org
                               </p>
                         </Modal>
                         </div>
