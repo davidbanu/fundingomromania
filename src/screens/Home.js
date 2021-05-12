@@ -158,7 +158,7 @@ class Home extends React.Component {
                                 </button>
                               </div>
                             </div>
-                              <p className="modalDonationText"> 
+                              <p className="modalDonationText" className="text-center"> 
                               Ajutorul dvs. financiar poate face o mare diferență în viața multora! Puteți alege să dați 10-20-50-100-1000 RON / EURO / DOLARI / Pounds sau cât doriți! Nimic nu este nesemnificativ!
                               Nu uitați să menționați care este proiectul pe care doriți să îl susțineți! MULȚUMESC!
                               <br/>
