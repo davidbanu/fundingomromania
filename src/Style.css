@@ -1,7 +1,22 @@
+@font-face {
+    font-family: Pulp;
+    src: url();
+}
+
 .semnatura {
     float: right;
 }
 
 .close {
 max-width: 20px;
+}
+
+.contact-footer ul p{
+    color: white;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Pulp;
+}
+
+.logo-om {
+    width: 50px;
 }

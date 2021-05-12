@@ -80,7 +80,7 @@ class Home extends React.Component {
       <div className="container home">
         <NavBarTop />
         <h1 className="title text-center">Oportunități de sprijin a misiunii OM ROMANIA</h1>
-        <p className="sub-title text-center">România, țara cu cei mai mulți credincioși evanghelici din Europa (după ultimele statistici), n-a aflat încă ce poate să facă Dumnezeu în/prin Bisericile Sale locale!</p>
+        <p className="sub-title text-center">Scurt mesaj din partea directorului OM România, Cornel Boingeanu</p>
         <button className="primary with-shadow" onClick={this.openModal}>Citește mai mult</button>
         <Modal
                     isOpen={this.state.modalIsOpen}
@@ -166,7 +166,7 @@ class Home extends React.Component {
                               <br/>
                               <b>Detalii plată:</b> {data.title}
                               <br/>
-                              <b>IBAN:</b> TEST
+                              <b>IBAN:</b> RO36RZBR0000060001980582
                               </p>
                         </Modal>
                         </div>
@@ -190,6 +190,7 @@ class Home extends React.Component {
 
         </div>
       </div>
+      <Footer />
     </div>
     );
   }

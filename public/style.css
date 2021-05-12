@@ -205,37 +205,25 @@
   font-size: 16px;
 }
 
-.github-icon {
-  color: var(--light-color);
-}
-
-.facebook-icon {
-  color: var(--fb-color);
-}
-
-.dribbble-icon {
-  color: var(--dribbble-color);
-}
-
-.twitter-icon {
-  color: var(--twitter-color);
-}
-
-.instagram-icon {
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.contact-footer ul p{
+  color: white;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Pulp;
+  font-family: Pulp;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 
-  .section-content p {
+.section-content p {
     font-family: PulpLight;
     font-size: 18px;
-  }
+}
 
-  .section-content h3 {
+.section-content h3 {
     font-family: PulpBold;
-  }
+}
 
 .privacy-page .privacy-title {
   margin-top: 80px;
