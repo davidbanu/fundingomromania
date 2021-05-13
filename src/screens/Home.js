@@ -174,7 +174,7 @@ class Home extends React.Component {
                               <br/>
                               Pentru detalii suplimentare vă rugăm să ne contactaţi:
                               <br/>
-                              <b>Telefon:</b> +40 268 253613
+                              <b>Telefon:</b> +40787531207
                               <br/>
                               <b>Email:</b> info.ro@om.org
                               </p>

@@ -48,7 +48,7 @@ function Footer() {
               info.ro@om.org
               </p>
               <p>
-              +40 268 253613
+              +40787531207
               </p>
               <p>
               Str. Morii 109 Ghimbav, BV
