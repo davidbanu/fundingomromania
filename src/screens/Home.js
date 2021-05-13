@@ -127,7 +127,9 @@ class Home extends React.Component {
         <div id="products" className="products-section">
           <div className="row">
             <div className="col-md-12">
-              <h2 className="section-title" id="all_themes">Toate echipele</h2>
+              {/* <h2 className="section-title" id="all_themes">Toate echipele</h2> */}
+              <br/>
+              <br/>
             </div>
           </div>
           <div className="row products-row">
