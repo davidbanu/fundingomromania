@@ -79,7 +79,7 @@ class Home extends React.Component {
       <div className="flex-wrapper">
       <div className="container home">
         <NavBarTop />
-        <h1 className="title text-center">Oportunități de sprijin a misiunii OM ROMANIA</h1>
+        <h1 className="title text-center">Oportunități de sprijin a misiunii OM ROMÂNIA</h1>
         <p className="sub-title text-center">Scurt mesaj din partea directorului OM România, Cornel Boingeanu</p>
         <button className="primary with-shadow" onClick={this.openModal}>Citește mai mult</button>
         <Modal
@@ -106,7 +106,7 @@ class Home extends React.Component {
                         De aceea, vă invităm să fiți parteneri cu noi în rugăciune și în dărnicie pentru extinderea Împărăției lui Dumnezeu în România. 
                         </span>
                         <span className="letterModals">
-                        În sensul acesta dorim să vă informăm cu privire la proiectele pe care le avem acum în derulare și despre planurile pe care vrem să le inițiem anul viitor. Vă rugăm să alegeți unul dintre proiectele de mai jos și să faceți o donație potrivit cu măsura de credință pe care o aveți și după îndemnul pe care îl primiți de la Dumnezeu. 
+                        În sensul acesta dorim să vă informăm cu privire la proiectele pe care le avem acum în derulare și despre planurile pe care vrem să le inițiem anul acesta. Vă rugăm să alegeți unul dintre proiectele de mai jos și să faceți o donație potrivit cu măsura de credință pe care o aveți și după îndemnul pe care îl primiți de la Dumnezeu. 
                         </span>
                         <span className="letterModals">
                         Puteți fi parte a Planului Măreț de Misiune a lui Dumnezeu pentru România zilelor noastre asociindu-vă cu noi în rugăciune și în susținere financiară pentru proiectele misionare pe care le desfășurăm. Noi vrem doar să vă oferim oportunitatea de a alege să faceți ceva semnificativ și cu impact major pentru Împărăția lui Dumnezeu.
